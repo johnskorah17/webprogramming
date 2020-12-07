@@ -1,0 +1,395 @@
+
+LAB CYCLE 1
+
+
+
+
+
+
+
+1.Print your name to the screen with every letter being a different heading size
+
+CODE:
+<html>
+<head>
+<body>
+<h1>J</h1>
+<h2>0</h2>
+<h3>H</h3>
+<h4>N</h4>
+<h5>S</h5>
+</body>
+</head>
+</html>
+
+
+ 
+2. Display the following text:
+H2O
+12th April 2016
+HTML stands for High Text Markup Language
+He said <I am fine>
+
+CODE: <!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+H<sub>2</sub>0
+<br><br>
+12<sup>th</sup> April 2016
+<br><br>
+HTML stands for <strike> High Text Markup Language.</strike>
+<br><br>
+He said< I am fine > 
+</body>
+</html>
+ 
+3. Print a paragraph with 4 - 5 sentences. Each sentence should be a different font
+
+CODE
+
+<html>
+<head>
+</head>
+<body>
+<p><font size="6" face="Times New Roman">The font tag allows us change font size,style and color of text.</font>
+<font size="5" face="Courier New">It is generally used for appearence of short segment of document.</font>
+<font size="4" face="Wildwest">Attributes are : Color, Face and Size.</font>
+<font size="3" face="Comic sans MS">Color sets text colour either the nameor hexadecimal format.</font>
+<font size="2" face="Verdana">Face specifies font face if not mentioned default style is used.</font>
+<font size="1" face="Arial">Font size varies from 1-7, default is 3.</font></p>
+</body>
+</html>
+
+ 
+
+1.	4 Print a paragraph that is a description of a book, include the title of the book as well as its author. Names and titles should be underlined, adjectives should be italicized and bolded
+
+CODE
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Description of a Book</title>
+</head>
+<body>
+<h1><u>Wings Of Fire</u></h1>
+<p>An Autobiography of <u>A P J Abdul Kalam</u>,<b><i> former President of India </i></b>. It was written by <u>Dr. Abdul Kalam</u> and <u>Arun Tiwari</u>.</p>
+<p><u>Dr. Kalam</u> examines his early life,<b><i> effort,hardship,fortitude </i></b>,luck and chance that eventually led him to lead Indian Space Research,nuclear and missile programs</p>
+</body>
+</html>
+
+
+ 
+
+5. Print two lists with any information you want. One list should be an ordered list, the other list should be an unordered list
+
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<b>My Ordered List</b>
+<ol>
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ol>
+<b>My Unordered List</b>
+<ul>
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+</body>
+</html>
+
+
+ 
+6. Prints 10 names with a line break between each name. The list should be alphabetized, and to do this place a subscripted number next to each name based on where it will go in the alphabetized list. (Example: Alan1). Print first, the unalphabetized list with a subscript number next to each name, then the alphabetized list. Both lists should have an <h1> level heading
+
+
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>Unalphabetized list</h1>
+Johns<sub>5</sub>
+<br>
+Alan<sub>1</sub>
+<br>
+Sandra<sub>6</sub>
+<br>
+Sunny<sub>7</sub>
+<br>
+Williamson<sub>10</sub>
+<br>
+Tom<sub>8</sub>
+<br>
+Warney<sub>9</sub>
+<br>
+James<sub>4</sub>
+<br>
+Bastin<sub>2</sub>
+<br>
+Celin<sub>3</sub>
+<br>
+<h1>Alphabetized list</h1>
+<ol>
+<li>Alan</li>
+<li>Bastin</li>
+<li>Celin</li>
+<li>James</li>
+<li>Johns</li>
+<li>Sandra</li>
+<li>Sunny</li>
+<li>Tom</li>
+<li>Warney</li>
+<li>Williamson</li>
+</ol>
+</body>
+</html>
+
+ 
+
+7. Print the squares of the numbers 1 - 20. Each number should be on a separate line, next to it the number 2 superscripted, an equal sign and the result
+
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+1<sup>2</sup> = 1
+<br>
+2<sup>2</sup> = 4
+<br>
+3<sup>2</sup> = 9
+<br>
+4<sup>2</sup> = 16
+<br>
+5<sup>2</sup> = 25
+<br>
+6<sup>2</sup> = 36
+<br>
+7<sup>2</sup> = 49
+<br>
+8<sup>2</sup> = 64
+<br>
+9<sup>2</sup> = 81
+<br>
+10<sup>2</sup> = 100
+<br>
+11<sup>2</sup> = 121
+<br>
+12<sup>2</sup> = 144
+<br>
+13<sup>2</sup> = 169
+<br>
+14<sup>2</sup> = 196
+<br>
+15<sup>2</sup> = 225
+<br>
+16<sup>2</sup> = 256
+<br>
+17<sup>2</sup> = 289
+<br>
+18<sup>2</sup> = 324
+<br>
+19<sup>2</sup> = 361
+<br>
+20<sup>2</sup> = 400
+</body>
+</html>
+
+ 
+8. Print a definition list with 5 items.
+
+CODE
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<dl>
+<dt>DNS</dt>
+<dd>Stands for <b>Domain Name System</b>, connects URL with their IP Addresses.</dd>
+<dt>TCP</dt>
+<dd>Stands for <b>Transmission Control Protocol</b>, is a connection Oriented Protocol.</dd>
+<dt>HTTP</dt>
+<dd>Stands for <b>HyperText Transfer Protocol</b>, runs on the top of TCP/IP Protocol for file exchange in  World Wide Web.</dd>
+<dt>FTP</dt>
+<dd>Stands for <b>File Transfer Protocol</b>, transfer of files from one host to another.</dd>
+<dt>UDP</dt>
+<dd>Stands for <b>User Datagram Protocol</b>, is a connectionless Protocol.</dd>
+</dl>
+</body>
+</html>
+
+ 
+9. Display an image that has a border of size 2, a width of 200, and a height of 200.
+
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<img src="C:\Users\johns\Desktop\HTML\New folder\cat.jpeg" alt="Cat" border="2" width="200" height="200"/>
+</body>
+</html>
+
+
+ 
+
+10. Print ten acronyms and abbreviations of your choosing, each separated by two lines. Specify the data that the abbreviations and acronyms represent
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<abbr title="Abstract">Abstr.</abbr>
+<br><br>
+<abbr title="Biochemistry">Biochem.</abbr>
+<br><br>
+<abbr title="Example">Ex.</abbr>
+<br><br>
+<abbr title="Literature">Lit.</abbr>
+<br><br>
+<abbr title="Mathematics">Math.</abbr>
+<br><br>
+<acronym title="World Wide Web Consortium">W3C</acronym>
+<br><br>
+<acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym>
+<br><br>
+<acronym title="International Standards Organisation">ISO</acronym>
+<br><br>
+<acronym title="Hyper Text Markup Language">HTML</acronym>
+<br><br>
+<acronym title="Beginners All Purpose Smbolic Instruction Code">BASIC</acronym>
+</body>
+</html>
+
+
+
+ 
+11.Print two addresses in the same format used on the front of envelopes (senders address in top left corner, receivers address in the center
+
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<address>
+<br>
+Dilbert H.
+<br>
+1234 Anim Street
+<br>
+P.O. Box 22222
+</address>
+<br><br>
+<center>
+<address>
+Someone A. Persion
+<br>
+5555 Street Avenue
+<br>
+Metrpolitan, Metropolis 11111
+</address>
+</center>
+</body>
+</html>
+
+
+ 
+	12. Create an HTML page with the following contents:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>I love HTML!!!</title>
+</head>
+<body>
+<h1><center><i>HTML Practice Exercise</i></center></h1>
+<h2><center><u><font color="purple">James Madison University</font></u></center></h2>
+<hr>
+I love HTML because :
+<ol>
+<li>I learned it quickly.</li>
+<li>I can make web pages using code.</li>
+<li>It is fun.</li>
+</ol>
+<hr>
+My professor's e-mail address is <a href="clarketb@jmu.edu.">clarketb@jmu.edu.</a>
+<br><br><b>Have a great day!</b>
+</body>
+</html>
+
+ 	13. Create the following table
+
+
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<table border="1" cellspacing="0">
+<tr> 
+ <th colspan="6"> Time Table </th>
+</tr>
+<tr>
+ <td rowspan="6"> Hours </td>
+ <th> Mon </th>
+ <th> Tues </th>
+ <th> Wed </th>
+ <th> Thu</th>
+ <th> Fri </th>
+</tr>
+<tr>
+ <td> Science </td>
+ <td> Maths </td>
+ <td> Science </td>
+ <td> Maths </td>
+ <td> Arts </td>
+</tr>
+<tr>
+ <td> Science </td>
+ <td> History </td>
+ <td> English </td>
+ <td> Social </td>
+ <td> Sports </td>
+</tr>
+<tr>
+ <th colspan="5"> Lunch </th>
+</tr>
+<tr>
+ <td> Science </td>
+ <td> Maths </td>
+ <td> Science </td>
+ <td> Maths </td>
+ <td rowspan="2"> Project </td>
+</tr>
+<tr>
+ <td> Science </td>
+ <td> History </td>
+ <td> English </td>
+ <td> Social </td>
+</tr>
+</table>
+</body>
+</html>
+
+ 
+
+
+
